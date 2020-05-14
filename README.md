@@ -151,7 +151,7 @@ docker run -itd -v /root/11may/jenpass/:/root/.jenkins/secrets/ -v /var/run/dock
 
 * Note: For this your gmail security should be off.
 
-![](ss1.jpeg)
+![](ss1.png)
 
 7.Now configure jenkins job for notification
 
@@ -159,7 +159,7 @@ docker run -itd -v /root/11may/jenpass/:/root/.jenkins/secrets/ -v /var/run/dock
 
 * Here I have manually written the wrong code and it fails.
 
-![](ss2.jpeg)
+![](ss2.png)
 
 
 ### Step 8: Now the final job comes. It will monitor the continers running, if they fails or stops by any reasons then this job will autmatically starts or launch the OS within a sec with the same confirguration.
